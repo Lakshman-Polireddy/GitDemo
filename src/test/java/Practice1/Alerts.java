@@ -27,5 +27,6 @@ public class Alerts {
 		System.out.println(driver.switchTo().alert().getText());
 		driver.switchTo().alert().dismiss();
 		Thread.sleep(1000);
+		System.out.println("lakshman");
         driver.quit();
 }}
