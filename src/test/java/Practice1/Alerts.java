@@ -28,5 +28,6 @@ public class Alerts {
 		driver.switchTo().alert().dismiss();
 		Thread.sleep(1000);
 		System.out.println("lakshman");
+		System.out.println("ram");
         driver.quit();
 }}
